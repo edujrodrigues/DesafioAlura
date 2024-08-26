@@ -1,0 +1,242 @@
+
+.cabecalho{
+    font-weight: bold;
+}
+
+/* ------------------------------- */
+/* ------------------------------- */
+/* ------------------------------- */
+
+body{
+    background-color: #F3F5FC;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.decodificador__conteudo{
+    display: flex;
+    flex-direction: row;
+}
+
+.decodificador__conteudo__img__p{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    
+}
+
+.decodificador__p {
+    font-weight: bold;
+}
+
+/* ------------------------------- */
+
+/* Inicio decodificador__conteudo__drt */
+.decodificador__conteudo__drt{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    left: 240px;
+    gap: 24px;
+}
+
+.container__input{
+    font-size: 32px;
+    color: #0A3871;
+    width: 680px;
+    height: 390px;
+    resize: none;
+    border: none;
+    outline: none;
+    background-color: #F3F5FC;
+    padding: 100px 0px 0px 0px;
+}
+
+.container__input::placeholder {
+    color: #0A3871;
+    /*font-style: italic;*/
+}
+
+.decodificador__img__exclamacao {
+    width: 16px;
+    height: 16px;
+    object-fit: contain;
+}
+
+.container__texto{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.decodificador__paragrafo{
+    font-size: 12px;
+}
+
+.container__botoes{
+    display: flex;
+    gap: 24px;
+}
+
+.container__Cript{
+    border-radius: 24px;
+    width: 328px;
+    height: 67px;
+
+    background-color: #0A3871;
+    
+    color: #FFFFFF;
+    font-size: 16px;
+    transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+
+.container__Cript:hover {
+    transform: scale(1.05);
+    background-color: #072B61;
+    cursor: pointer
+}
+
+.container__Descript{
+    border-radius: 24px;
+    width: 328px;
+    height: 67px;
+
+    background-color: #D8DFE8;
+    
+    color: #0A3871;
+    font-size: 16px;
+    transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+
+.container__Descript:hover {
+    transform: scale(1.05);
+    background-color: #EFF1FA;
+    cursor: pointer
+}
+
+/* Fim decodificador__conteudo__drt */
+
+/* ------------------------------- */
+
+/* Inicio decodificador__conteudo__esq */
+.decodificador__conteudo__esq{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+}
+
+.decodificador__cartao__borda{
+    position: fixed;
+    left: 1000px;
+    width: 400px;
+    height: 620px;
+
+    border: 2px solid #000000;
+    border-radius: 32px;
+    background-color: #FFFFFF;
+
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+.decodificador__img__pesquisa{
+    position: fixed;
+
+    width: 336px;
+    height: 304px;
+
+    top: 50px;
+    left: 1032px;
+}
+
+.decodificador__cartao__texto0{
+    position: fixed;
+
+    font-size: 24px;
+    font-weight: bold;
+
+    width: 336;
+    height: 58;
+
+    top: 379px;
+    left: 1082px;
+}
+
+.decodificador__cartao__texto1{
+    position: fixed;
+
+    font-size: 24px;
+    font-weight: bold;
+
+    width: 336;
+    height: 58;
+
+    top: 409px;
+    left: 1132px;
+}
+
+.decodificador__cartao__texto2{
+    position: fixed;
+
+    font-size: 16px;
+
+    width: 336;
+    height: 58;
+
+    top: 483px;
+    left: 1082px;
+}
+
+.decodificador__cartao__texto3{
+    position: fixed;
+
+    font-size: 16px;
+
+    width: 336;
+    height: 58;
+
+    top: 503px;
+    left: 1086px;
+}
+
+.container__output{
+    position: fixed;
+
+    top: 40px;
+    left: 1020px;
+    width: 355px;
+    height: 500px;
+
+    background-color: #FFFFFF;
+
+    font-size: 24px;
+    color: #495057;
+
+    resize: none;
+    border: none;
+    outline: none;
+}
+
+.container__Copiar{
+    position: fixed;
+
+    border-radius: 24px;
+    width: 336px;
+    height: 67px;
+
+    top: 560px;
+    left: 1030px;
+
+    background-color: #F3F5FC;
+    
+    color: #0A3871;
+    font-size: 16px;
+    transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+
+.container__Copiar:hover {
+    transform: scale(1.05);
+    background-color: #EFF1FA;
+    cursor: pointer
+}
+/* Fim decodificador__conteudo__esq */
+
+/* ------------------------------- */
